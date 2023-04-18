@@ -1,0 +1,22 @@
+ul{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  list-style-type:none;
+  padding:0;
+}
+ ul li a{
+   border:1px solid whitesmoke;
+   border-radius:1 rem;
+   margin:1 rem;
+   display:flex;
+   flex-direction:column;
+   overflow:hidden;
+   color:#e72929;
+   height:20rem;
+   width:20rem;
+ }
+ li a:hover{
+   opacity:0.8;
+   cursor:pointer;
+ }
